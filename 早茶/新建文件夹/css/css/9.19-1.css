@@ -1,0 +1,49 @@
+*{margin:0; padding:0;border:0; background:none;}
+body{font-family:"微软雅黑";font-size:16px;}
+.content{
+	width:100%;
+	height:1000px;
+	/* background: #eb5555; */
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537434644603&di=5520adff2d654ae2ab9d29584aa56b25&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3Daa093643db09b3deffb2ec2ba4d606f4%2F9d82d158ccbf6c817c4dbdc3b63eb13533fa40a7.jpg)
+}
+.con{
+	width:912px;
+	height:530px;
+	margin:0 auto;
+	padding:40px 0 0 68px;
+}
+.con .con_type{
+	width:180px;
+	height:220px;
+	border:0.5px solid rgb(235, 82, 82);
+	float: left;
+	background: rgb(202, 190, 13);
+	margin:0 39px 30px 0;
+	font-size: 14px;
+	columns: #4a9c35;;
+}
+.con .con_type span{
+	display: block;
+	padding:2px 0 0 16px; 
+}
+.con .con_type span.con_name{color:#d2df60;}
+.con .con_type span b{
+	font-weight: normal;
+	columns: #330304;;
+}
+.con .con_type img{
+	margin:12px 12px 3px 12px;
+	width:158px;
+	height:122px;
+}
+.footer{
+	position: relative;
+	top:-8px;
+	width:100%;
+	height:120px;
+	background: url() repeat-x;
+	text-align: center;
+	line-height: 120px;
+	color:rgb(14, 133, 230);
+	font-size: 18px;
+}
