@@ -19,7 +19,8 @@ namespace ContosoUniversity.DAL
                 new Student { Name="大大大",EnrollmentDate=DateTime.Parse("2029-3-3")},
                 new Student { Name="王1贵",EnrollmentDate=DateTime.Parse("2029-1-3")},
                 new Student { Name="王11",EnrollmentDate=DateTime.Parse("2007-5-3")},
-                new Student { Name="大2大",EnrollmentDate=DateTime.Parse("2009-9-3")}
+                new Student { Name="大2大",EnrollmentDate=DateTime.Parse("2009-9-3")},
+                new Student { Name="大222大",EnrollmentDate=DateTime.Parse("2029-9-3")}
             };
             //将学生数据加入实体集
 
