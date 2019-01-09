@@ -9,8 +9,10 @@ namespace ContosoUniversity.Models
     public class Student
     {
         public int ID { get; set; }
+
         [Display(Name="姓名")]
         public string Name { get; set; }
+
         [Display(Name = "注册时间")]
         public DateTime EnrollmentDate { get; set; }
         
