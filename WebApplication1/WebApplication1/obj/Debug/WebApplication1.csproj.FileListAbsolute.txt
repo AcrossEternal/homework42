@@ -118,3 +118,4 @@ D:\homework42\WebApplication1\WebApplication1\bin\zh-Hans\System.Web.WebPages.Ra
 D:\homework42\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 D:\homework42\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 D:\homework42\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\GITHUB仓库\homework42\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

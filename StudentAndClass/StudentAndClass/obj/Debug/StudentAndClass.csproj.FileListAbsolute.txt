@@ -10,3 +10,4 @@ E:\C#部分的WEB\控制台\StudentAndClass\StudentAndClass\obj\Debug\StudentAnd
 E:\C#部分的WEB\控制台\StudentAndClass\StudentAndClass\obj\Debug\StudentAndClass.pdb
 E:\C#部分的WEB\控制台\StudentAndClass\StudentAndClass\obj\Debug\StudentAndClass.Migrations.InitialCreate.resources
 E:\C#部分的WEB\控制台\StudentAndClass\StudentAndClass\obj\Debug\StudentAndClass.csproj.GenerateResource.Cache
+D:\GITHUB仓库\homework42\StudentAndClass\StudentAndClass\bin\Debug\StudentAndClass.exe.config
