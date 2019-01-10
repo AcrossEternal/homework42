@@ -18,7 +18,7 @@ namespace ConsoleApplication2.BusinessLayer
                 db.SaveChanges();
             }
         }
-        public List<Blogs> Query()
+        public List<Blogs> Query1()
         {
             using (var db = new BloggingContext())
             {
@@ -48,5 +48,28 @@ namespace ConsoleApplication2.BusinessLayer
                 db.SaveChanges();
             }
         }
+        public List<Blogs> Query1(string name)
+        {
+            using (var db = new BloggingContext())
+            {
+                // 查询所有包含字符串name的博客
+                var blogs = from b in db.Blogs
+                            where b.Name.Contains(name)
+                            select b;
+                return blogs.ToList();
+            } 
+        }
+        public Blogs QueryABlog1(string name)
+        {
+            using (var db = new BloggingContext())
+            {
+                // 查询所有包含字符串name的博客
+                var blogs = from b in db.Blogs
+                            where b.Name == name
+                            select b;
+                return blogs.FirstOrDefault();
+            }
+        }
+
     }
 }

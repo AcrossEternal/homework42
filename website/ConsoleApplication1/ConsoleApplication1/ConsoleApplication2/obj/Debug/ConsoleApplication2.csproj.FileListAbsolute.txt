@@ -8,3 +8,15 @@ E:\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug
 E:\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
 E:\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+E:\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\EntityFramework.dll
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\EntityFramework.xml
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\C#部分的WEB\控制台\website\ConsoleApplication1\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache

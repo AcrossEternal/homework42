@@ -12,10 +12,11 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            //createBlog();  //新增
-            //Update();      //修改
-            //Delete();        //删除
-            //QueryBlog();     //显示所有博客
+            //QueryBlog();     ////显示所有博客
+            //createBlog();  ////新增
+            //Update();      ////修改
+            //Delete();        ////删除     
+            SelectBolg();
             AddPost();
             QueryBlog();
             Console.WriteLine("按任意键退出");
@@ -29,6 +30,20 @@ namespace ConsoleApplication2
             //根据指定到博客信息创建新帖子
             NewPosts();
         }
+
+        static void SelectBolg()
+        {
+            Console.WriteLine("请输入你要查询的博客");
+            string name = Console.ReadLine();
+            BlogBusinessLayer bbl = new BlogBusinessLayer();
+            var query = bbl.Query1();
+
+            foreach (var item in query)
+            {
+                Console.Write(item.Name);
+            }
+        }
+
         static void NewPosts()
         {
             //用户选择某个博客（id）
@@ -96,7 +111,7 @@ namespace ConsoleApplication2
         static void QueryBlog()
         {
             BlogBusinessLayer bbl = new BlogBusinessLayer();
-            var blogs = bbl.Query();
+            var blogs = bbl.Query1();
             foreach (var item in blogs)
             {
 
