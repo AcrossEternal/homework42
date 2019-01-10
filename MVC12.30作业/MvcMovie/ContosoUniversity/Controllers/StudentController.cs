@@ -12,6 +12,7 @@ using PagedList;
 
 namespace ContosoUniversity.Controllers
 {
+
     public class StudentController : Controller
     {
         private SchoolContext db = new SchoolContext();
@@ -76,6 +77,7 @@ namespace ContosoUniversity.Controllers
             return View(student);
         }
 
+        [Authorize]
         // GET: Student/Create
         public ActionResult Create()
         {

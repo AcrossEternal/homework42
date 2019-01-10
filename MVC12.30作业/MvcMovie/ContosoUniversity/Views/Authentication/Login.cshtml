@@ -1,0 +1,29 @@
+﻿@model ContosoUniversity.Models.UserDetails
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+<form action="~/AuthenticationController/Login"method="post">
+    <label>用户名</label> <input type="text" name="UserName" value="" />
+    <input type="password" name="Password" value="" />
+    <input type="submit" value="提交"/>
+</form>
+@Html.ValidationMessage("CredentialError", new { style = "color:red;" })
+@using (Html.BeginForm("Login", "Authentication", FormMethod.Post))
+            {
+    @Html.LabelFor(c => c.UserName)
+    @Html.TextBoxFor(x => x.UserName)
+    <br />
+                @Html.LabelFor(c => c.Password)
+                @Html.PasswordFor(x => x.Password)
+                <br />
+                <input type="submit" name="BtnSubmit" value="Login" />
+}
+
+
+
+
+
+
